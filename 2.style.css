@@ -1,0 +1,43 @@
+/* CSS (in s    tyle.css file) */
+.stopwatch {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.circle {
+    border: 1px solid #ce1515;
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #eaf0f4;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #471be7;
+}
+
+#lap-times {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#lap-times li {
+    margin-bottom: 10px;
+}
